@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+  
+  <head>
+    <title>LineTime</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="landing.css">
+    <!-- materialize  -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script> 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css"> 
+  </head>
+
+<body>
+
+    <!-- ////////////  navBar///////////// -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+          
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav mr-auto">
+
+                <li class="nav-item active">
+                  <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item" id ="pull-right">
+                  <a class="nav-link" href="#">LOG IN</a>
+                </li>
+                
+                <li class="nav-item">
+                  <a class="nav-link disabled" href="#">SIGNUP</a>
+                </li>
+              </ul>
+            </div>
+          </nav>
+
+<!-- carousel -->
+
+        <div class="carousel">
+            <a class="carousel-item" href="#one!"><img src="https://lorempixel.com/250/250/nature/1"></a>
+            <a class="carousel-item" href="#two!"><img src="https://lorempixel.com/250/250/nature/2"></a>
+            <a class="carousel-item" href="#three!"><img src="https://lorempixel.com/250/250/nature/3"></a>
+            <a class="carousel-item" href="#four!"><img src="https://lorempixel.com/250/250/nature/4"></a>
+            <a class="carousel-item" href="#five!"><img src="https://lorempixel.com/250/250/nature/5"></a>
+        </div>
+                
+
+<!-- form  -->
+
+    <h1>Landing Page</h1>
+    <p>Please fill this form :</p>
+    <form>
+        <div>
+            <label for="text">Text Input</label>
+            <input type="text" id="text" required>
+        </div>
+
+        <div>
+            <label for="minmaxlength">Text with Min and Max Length</label>
+            <input type="text" id="minmaxlength" minlength="3" maxlength="12">
+        </div>
+
+        <div>
+            <label for="password">Password (must contain at least 1 uppercase character, 1 lowercase character, and 1 number)</label>
+            <input type="password" id="password" pattern="^(?=.*\d)(?=.*[a-z])(?=.*[A-Z])(?!.*\s).*$" required>
+        </div>
+
+        <div>
+            <label for="passwordwithtitle">Password with Title Attribute</label>
+            <input type="password" id="passwordwithtitle" pattern="^(?=.*\d)(?=.*[a-z])(?=.*[A-Z])(?!.*\s).*$" title="Please include at least 1 uppercase character, 1 lowercase character, and 1 number." required>
+        </div>
+
+        <div>
+            <label for="passwordcombined">Password with Pattern and Min Length</label>
+            <input type="password" id="passwordcombined" minlength="8" pattern="^(?=.*\d)(?=.*[a-z])(?=.*[A-Z])(?!.*\s).*$" title="Please include at least 1 uppercase character, 1 lowercase character, and 1 number." required>
+        </div>
+
+        <input type="submit" class="button" value="Submit">
+    </form>
+    <script type='text/javascript' src='testForm.js'></script>
+</body>
+</html>
