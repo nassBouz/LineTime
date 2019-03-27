@@ -10,6 +10,11 @@
 /**
  * Form Styles
  */
+
+
+ body{
+    letter-spacing: .3em;
+ }
 label {
     display: block;
     font-weight: bold;
@@ -137,6 +142,7 @@ input[type="submit"]:hover {
 .updates{
     font-family: 'Quicksand', sans-serif;
     font-weight: bold;
+    margin-bottom: 20px;
 }
 
 article p {
@@ -154,3 +160,42 @@ article h3 {
 ::placeholder{
     color:#D8D8D8
 }
+
+.backImage{
+    margin-bottom: 150px;
+}
+
+.carousel {
+    position: relative;
+    margin-top: 100px;
+    margin-bottom: 100px; }
+
+    footer {
+        background-color: #64D0DC;
+        overflow: auto;
+        margin-top:50px;
+    }
+
+   
+
+    .social-links a {
+        font-size: 30px;
+        padding: 15px;
+        margin-bottom: 0;
+        display: inline-block;
+        color: black;
+    }
+
+    .store-images{
+        float:right;
+    }
+
+    h1{
+        font-family: 'Quicksand', sans-serif;
+    }
+   
+
+    .google-play, .app-store {
+        padding:5px;
+        margin-top:5px;
+    }
