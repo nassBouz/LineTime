@@ -92,8 +92,9 @@ select {
 
 /* //// background image */
 .backImage{
-    background-image: url("./images/HEADER IMAGE.png");
-    height: 100vh;
+    background-image: url("./images/HEADER IMAGE_2.png");
+    height: 120vh;
+    margin-bottom:100px;
    
 }
 
@@ -104,7 +105,7 @@ select {
 
 .content{
     text-align: center;
-    margin-bottom: 50px;
+    margin-bottom: 80px;
 }
 
 .col-sm-12{
@@ -160,10 +161,6 @@ article h3 {
 
 ::placeholder{
     color:#D8D8D8
-}
-
-.backImage{
-    margin-bottom: 150px;
 }
 
 .carousel {
