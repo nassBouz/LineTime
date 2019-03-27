@@ -92,3 +92,24 @@ select {
 .col-sm-12{
     text-align: center;
 }
+
+#mc_embed_signup{
+    text-align: center;
+
+}
+
+input{
+    width:428px;
+    height:36px;
+}
+
+
+input[value=""] {
+    margin-bottom: 14px;
+
+}
+input[type="submit"]{
+border-radius: 25px;
+width: 210px;
+background: goldenrod;
+}
