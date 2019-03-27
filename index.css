@@ -106,10 +106,34 @@ input{
 
 input[value=""] {
     margin-bottom: 14px;
+    font-size: 19px;
+    font-family: 'Quicksand', sans-serif;
 
 }
 input[type="submit"]{
 border-radius: 25px;
 width: 210px;
-background: goldenrod;
+background: #ffd285;
+border: 0px;
+color:black;
+font-family: 'Quicksand', sans-serif;
+}
+input[type="submit"]:hover { 
+    background:#64D0DC;
+  }
+.updates{
+    font-family: 'Quicksand', sans-serif;
+    font-weight: bold;
+}
+
+article p {
+    font-family: 'Quicksand', sans-serif;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+article h3 {
+    font-family: 'Quicksand', sans-serif;
+    font-weight: bold;
+    font-size: 24px;
 }
