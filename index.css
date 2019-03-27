@@ -154,3 +154,37 @@ article h3 {
 ::placeholder{
     color:#D8D8D8
 }
+
+img{
+    height: 100%
+}
+
+.carousel-item img {
+    width: 100%;
+}
+ 
+
+
+@media only screen and (max-width: 991px) {
+    .backImage{
+        background-image: url("./images/background-curve.png");
+        height: 50vh;
+        width: auto;
+       /* 414 295 */
+    }
+
+    #hambNav{
+        position: absolute !important;
+        /* /* left: 10px ; */
+        right : 0px; 
+        top: 0px;
+    }
+
+    .navbar{
+        display: flex;
+        flex-direction: row-reverse;
+        color: white;
+    }
+
+
+}
