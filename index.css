@@ -84,6 +84,11 @@ select {
 /* /////////// */
 #mc_embed_signup{background:#fff; clear:left; font:14px Helvetica,Arial,sans-serif; }
 
-h1{
+.content{
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.col-sm-12{
     text-align: center;
 }
