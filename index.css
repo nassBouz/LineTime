@@ -95,8 +95,8 @@ select {
 /* //// background image */
 .backImage{
     background-image: url("./images/HEADER IMAGE_2.png");
-    height: 120vh;
-    margin-bottom:100px;
+    height: 100vh;
+    margin-bottom:75px;
    
 }
 
