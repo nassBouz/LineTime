@@ -87,7 +87,7 @@ select {
 
 /* //// background image */
 .backImage{
-    background-image: url("./images/.png");
+    background-image: url("./images/HEADER IMAGE.png");
     height: 100vh;
    
 }
@@ -95,5 +95,62 @@ select {
 #stylingText{
     font-family: 'Quicksand', sans-serif; 
     padding-top: 33px;
+}
 
+.content{
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.col-sm-12{
+    text-align: center;
+}
+
+#mc_embed_signup{
+    text-align: center;
+
+}
+
+input{
+    width:428px;
+    height:36px;
+}
+
+
+input[value=""] {
+    margin-bottom: 14px;
+    font-size: 19px;
+    font-family: 'Quicksand', sans-serif;
+
+}
+input[type="submit"]{
+border-radius: 25px;
+width: 210px;
+background: #ffd285;
+border: 0px;
+color:black;
+font-family: 'Quicksand', sans-serif;
+}
+input[type="submit"]:hover { 
+    background:#64D0DC;
+  }
+.updates{
+    font-family: 'Quicksand', sans-serif;
+    font-weight: bold;
+}
+
+article p {
+    font-family: 'Quicksand', sans-serif;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+article h3 {
+    font-family: 'Quicksand', sans-serif;
+    font-weight: bold;
+    font-size: 24px;
+}
+
+::placeholder{
+    color:#D8D8D8
 }
